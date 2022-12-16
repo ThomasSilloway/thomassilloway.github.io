@@ -25,7 +25,7 @@ const Home = (props) => {
         image_src="/playground_assets/mystborn_creations_logo_wide_white_20.svg"
         image_src1="/playground_assets/mystborn_creations_logo_wide-1500h.jpg"
         rootClassName="navbar-root-class-name"
-        BrandingLogo="/playground_assets/mystborn_creations_logo_wide_white_lg_black_20.svg"
+        BrandingLogo="./playground_assets/mystborn_creations_logo_wide_white_lg_black_20.svg"
       ></Navbar>
       <section className="home-section">
         <div className="home-hero">
