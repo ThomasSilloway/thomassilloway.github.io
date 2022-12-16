@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mbctest/build/static/css/main.8742c3c8.css",
-    "main.js": "/mbctest/build/static/js/main.a940bc60.js",
+    "main.js": "/mbctest/build/static/js/main.fbf0efc0.js",
     "index.html": "/mbctest/build/index.html",
     "main.8742c3c8.css.map": "/mbctest/build/static/css/main.8742c3c8.css.map",
-    "main.a940bc60.js.map": "/mbctest/build/static/js/main.a940bc60.js.map"
+    "main.fbf0efc0.js.map": "/mbctest/build/static/js/main.fbf0efc0.js.map"
   },
   "entrypoints": [
     "static/css/main.8742c3c8.css",
-    "static/js/main.a940bc60.js"
+    "static/js/main.fbf0efc0.js"
   ]
 }

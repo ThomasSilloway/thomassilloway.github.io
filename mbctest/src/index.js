@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Route component={Home} exact path="/" />
+        <Route component={Home} exact path="/mbctest/build/" />
       </div>
     </Router>
   )

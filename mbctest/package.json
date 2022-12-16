@@ -1,7 +1,7 @@
 {
   "name": "planical-modern-template",
   "version": "1.0.0",
-  "homepage": "https://thomassilloway.github.io/mbctest/build",
+  "homepage": "https://thomassilloway.github.io/mbctest/build/",
   "private": true,
   "dependencies": {
     "@craco/craco": "^7.0.0-alpha.0",
