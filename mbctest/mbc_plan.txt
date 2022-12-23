@@ -1,0 +1,33 @@
+MC page ideas
+
+- Github pages
+- Typeform embed button already done
+
+Color #B488DC
+
+Themes
+- Gradiant - https://pages-themes.github.io/modernist/
+- Maybe with replace green with purple? https://pages-themes.github.io/hacker/
+- 2 column layout? https://pages-themes.github.io/minimal/
+
+Tried learning how to use react - the test page I made has shitty react code, so would need to learn it from scratch
+
+Probably better off using the tutorials or use that template maker to output the html & I'll add javascript to it - seems like a waste when I could learn React instead.
+
+Learnings
+	- Got my logo converted to SVG!
+	- Went far down a rabbit hole trying to get the layout for this template site working.  Looks like it's just for layout & not functionality
+	- Take a break before going down the rabbit hole
+	- Learned some about how React works
+	- Deployed some sample websites to Google Pages
+	- Got the contact form working in both google forms & another one that's actually pretty good
+	- All of this to manually create a website, when Wix or Squarespace would do all this stuff for me, yikes, definitely worth exploring that.
+	- Probably will just use the built in Github pages theme stuff, seems like that would save a lot of effort & still be free.
+	- Learned how to build & deploy react apps on Google Pages
+	
+Day 2
+
+Webflow - Contact form - Got it set up with IFTTT
+Weird interaction with custom link, can solve with custom javascript, or maybe by exporting the site & replacing the url
+
+IFTTT url https://maker.ifttt.com/trigger/email_form/with/key/juU6Hiz3TA3u9DGHH0fjicOfZ9EpdVzPREW7VElIIcX
