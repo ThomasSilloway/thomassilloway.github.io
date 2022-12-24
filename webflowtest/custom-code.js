@@ -2,10 +2,19 @@ function is_test()
 {
     return Config.deployment == "test";
 }
+
+function animateFormSubmit()
+{
+    $('#form-suck-in-anim').click();
+
+    setTimeout(function() {
+        displaySuccess()
+      }, 1000);
 }
 
-function displaySuccess(parent)
+function displaySuccess()
 {
+    var parent = $('#email-form').parent();
     // Hide the form
     parent.children("form").css("display", "none");
     // Display the "Done" block
@@ -24,7 +33,7 @@ form.submit(function (e) {
 
     if(is_test())
     {
-        displaySuccess(form.parent());
+        animateFormSubmit();
         return;
     }    
 
@@ -33,7 +42,7 @@ form.submit(function (e) {
     var request_data = form.serializeArray();
 
     $.post(request_url, request_data).done(function( data ) {
-        displaySuccess($(form.parent()));
+        animateFormSubmit();
     }).fail(function() {
         var parent = $(form.parent());
         // Display the "Failed" block
