@@ -1,5 +1,5 @@
-var deployment = "test";
-//var deployment = "prod";
+//var deployment = "test";
+var deployment = "prod";
 
 function is_test()
 {
