@@ -1,9 +1,7 @@
-//var deployment = "test";
-var deployment = "prod";
-
 function is_test()
 {
-    return deployment == "test";
+    return Config.deployment == "test";
+}
 }
 
 function displaySuccess(parent)
