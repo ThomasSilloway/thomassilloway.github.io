@@ -15,7 +15,7 @@ var form = $(el);
 form.submit(function (e) {
     e.preventDefault();
 
-    var request_url = "https://maker.ifttt.com/trigger/email_form/with/key/juU6Hiz3TA3u9DGHH0fjicOfZ9EpdVzPREW7VElIIcX";
+    var request_url = "https://hook.us1.make.com/r9cdtqyxifkvsd9fzeybbau5mijyy1wb";
 
     var request_data = {
         value1 : "test7",
